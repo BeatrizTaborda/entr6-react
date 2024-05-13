@@ -1,0 +1,24 @@
+.homepage__filters {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.homepage__filtername {
+    display: flex;
+}
+.homepage__btn::before {
+    content: 'Dark';
+}
+.dark .homepage__btn::before {
+    content: 'Ligth';
+}
+.homepage__container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}

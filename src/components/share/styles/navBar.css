@@ -1,0 +1,13 @@
+.navbar {
+    background-color: orange;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: inherit;
+}
+.navbar__list {
+    display: flex;   
+    gap: 20px;
+}
